@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body id="myBackground"><!--This will be the background to the page-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="TopNavBar"><!--This navbar will hold the element about my personal profile-->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav"><!--navbarNav id as a target to toggle the dropdown menu the page is minimized-->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#popoverBtn">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./MyContacts/ContactUs.html">Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://github.com/manchidi89" alt="Link To GitHub">GITHUB
+                            Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#popoverBtnTwo">Exprience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#popoverBtn">Education</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae exercitationem pariatur maiores obcaecati
+        perferendis asperiores nostrum, placeat reiciendis quo magnam rerum animi molestias culpa, vero quasi soluta
+        error? Quaerat, omnis perferendis provident inventore eaque nihil reiciendis necessitatibus voluptates
+        repudiandae, natus cumque similique aliquid repellat dolorem illo accusantium. Optio iste deserunt enim minus
+        doloremque quis porro eveniet modi dolore, minima voluptate odit quam possimus, voluptates fuga, eaque
+        repudiandae mollitia recusandae eius! Aut repellendus doloremque suscipit minus nisi est rem qui illo.</h1>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-6 text-white text-center fst-italic fs-5 font-monospace">
+                <h3>Hi, my name is Mahlatsi Manchidi </h3>
+                <p>I am a 33 years old fullstack web developer student with online school by the name of HyperionDev,I
+                    am very
+                    passionate
+                    about buliding website for myself and others strickly for following the thier specifications not
+                    otherwise.I have fair exprience programming in
+                    Python,C,C++,Javascript and Arduino which has bit of java,python and C.One of my biggest goal is to
+                    learn discrete and linear algebra mathematics,because i would fancy being the top notch logician, so
+                    that i can build application with better logics.</p>
+            </div>
+            <div class="col-6"><img src="./Images/MahlatsiPicture.jpg" alt="" id="myProfilePic">
+            </div>
+        </div>
+        <br><br><br><br>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-start">
+                <button type="button" id="popoverBtnTwo" class="btn btn-lg btn-danger"
+                    data-bs-toggle="popover" data-bs-title="My Exprience"
+                    data-bs-content="I'm fairly good user interface developer in both PyQt,HTML,CSS and Javascript, and i can also develop industrial SCADA's.The electrician by profession for over 7 years in practice and Programmable logic controller programmer. ">+Exprience</button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-end">
+                <button type="button" id="popoverBtn" class="btn btn-lg btn-danger" data-bs-toggle="popover"
+                    data-bs-title="My Educational Background"
+                    data-bs-content="I am currently 2nd year Computer Science student with University of South Africa and current fullstack web development student with HyperionDev">+Education</button>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom" id="BottomNavBar"><!--BottomNavBar id as a target to toggle the dropdown menu the page is minimized-->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Follow Me @</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavTwo"
+                aria-controls="navbarNavTwo" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavTwo">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="https://www.linkedin.com/in/manchidi-mahlatsi-emmanuel-b74bb3121/"><i
+                                class="bi bi-linkedin"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://www.facebook.com/mahlatsi.manchidi.3"><i
+                                class="bi bi-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://github.com/manchidi89" alt="Link To GitHub"><i
+                                class="bi bi-github"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                            href="https://discord.com/channels/577460436316717056/1006835512583135242"><i
+                                class="bi bi-discord"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous">
+    </script>
+    <script>//This script will ensure that the pop windows are visible when popover buttons are clicked
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+</body>
+
+</html>

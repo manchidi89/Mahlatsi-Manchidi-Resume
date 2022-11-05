@@ -1,0 +1,32 @@
+/*This will give the background to the page*/
+#myBackground {
+    background-image: url("./Images/casey-horner-RmoWqDCqN2E-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+ 
+  .nav-item:hover{/*This will customize the list items */
+    color: rgb(149, 179, 29);
+    text-shadow: 1px 1px 2px rgb(145, 10, 10), 0 0 25px rgb(166, 166, 175), 0 0 5px rgb(14, 116, 162);
+    background-color: rgb(62, 79, 127);
+    border-radius: 4px;
+    
+  }
+  #myProfilePic{/*This will size the profile picture and make it circle*/
+    height: 400px;
+    border-radius: 200px;
+    width: 400px;
+  }
+  #popoverBtn{
+    background-color: blue;
+    width: 500px;
+    border-color: blue;
+    box-shadow: rgba(14, 14, 191, 0.25) 0px 30px 60px -12px inset, rgba(177, 18, 18, 0.3) 0px 18px 36px -18px inset;
+  }
+
+  #popoverBtnTwo{
+    background-color: rgb(37, 25, 35);
+    width: 500px;
+    border-color: rgb(37, 25, 35);
+  }
