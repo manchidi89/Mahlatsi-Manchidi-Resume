@@ -30,3 +30,8 @@
     width: 500px;
     border-color: rgb(37, 25, 35);
   }
+  .prevent-select {/*Copied from W3C to make h1 tag unselectable*/
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
